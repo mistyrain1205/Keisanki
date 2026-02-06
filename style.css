@@ -401,3 +401,60 @@ footer {
     color: var(--text-light);
     font-size: 0.8rem;
 }
+
+.footer-links {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Long Article Content */
+.long-article {
+    margin-top: 48px;
+    background: #fff;
+    padding: 32px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.long-article h2 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-bottom: 24px;
+    border-left: 5px solid var(--primary-color);
+    padding-left: 15px;
+}
+
+.article-content h3 {
+    font-size: 1.15rem;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--accent-color);
+    padding-bottom: 8px;
+}
+
+.article-content p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.article-content ul {
+    margin-bottom: 24px;
+    padding-left: 20px;
+}
+
+.article-content li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
